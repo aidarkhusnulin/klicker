@@ -1,0 +1,43 @@
+body {
+  padding: 0px;
+}
+
+.main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  border: 1px solid black;
+}
+
+.left {
+  display: flex;
+  width: 45%;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.imgContainer {
+  display: flex;
+  height: 50%;
+  border: 1px solid black;
+}
+
+.butContainer {
+  display: flex;
+  height: 50%;
+  border: 1px solid black;
+}
+
+img {
+  object-fit: scale-down;
+  width: 90%;
+height: 100%;
+
+}
+
+
+.store {
+  display: flex;
+  width: 45%;
+  border: 1px solid black;
+}
